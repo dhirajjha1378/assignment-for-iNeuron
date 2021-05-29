@@ -1,0 +1,12 @@
+import numpy as np
+
+# Python Assignment 2 (i)
+
+a=int(input(" number of stars are required--"))
+for i in range(a):  print('*'*i)
+for i in range(a):  print("*"*(a-i))
+
+# Python Assignment 2 (ii)
+
+word= input("Pls type the word Which need to be reversed :")
+print (word[ : :-1])
